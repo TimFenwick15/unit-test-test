@@ -4,10 +4,12 @@
   "description": "",
   "main": "script.js",
   "directories": {
-    "test": "test"
+    "rewiretest": "rewiretest",
+    "phantomjstest": "phantomjstest"
   },
   "scripts": {
-    "test": "mocha test"
+    "rewiretest": "mocha rewiretest",
+    "phantomjstest": "mocha phantomjstest"
   },
   "author": "",
   "license": "ISC",
